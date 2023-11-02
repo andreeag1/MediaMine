@@ -1,0 +1,40 @@
+.upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upload-title {
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  width: 10%;
+}
+
+.input-upload {
+  padding-left: 200px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
