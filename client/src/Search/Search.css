@@ -1,0 +1,45 @@
+.body {
+  background-color: #23272e;
+}
+
+.searchedMedia {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchedMedia img {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.searchedMedia p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  column-gap: 100px;
+  row-gap: 250px;
+}
+
+.search-title {
+  display: flex;
+  justify-content: center;
+}
+
+.search-title p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
